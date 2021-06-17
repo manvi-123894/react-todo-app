@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1{
+  color: #23689b;
+ 
+}
+
+.section-center{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  width: 100%;
+}
+
+.form input{
+  width: 100%;
+  border: 1px solid #23689b;
+  height: 25px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form select{
+  width: 100%;
+  border: 1px solid #23689b;
+  height: 25px;
+  margin: 5px auto;
+  height: 29px;
+  border-radius: 5px;
+}
+
+.form button{
+  width: 75px;
+  border: 1px solid #23689b;
+  background-color: #23689b;
+  color: #fff;
+  height: 29px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.targetList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item{
+  padding: 0 0 0 5px;
+}
+
+.list-item p{
+  color: rgb(48, 47, 47);
+  font-weight: 600;
+} 
+
+.list-item .buttons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 12%;
+  margin-left:  5px;
+  color: #eb596e;
+  cursor: pointer;
+}
+
+.edit-btn{
+  color: rgb(52, 179, 52);
+}
+
+.dlt-btn{
+  color: rgb(211, 58, 58);
+}
+
+.done-btn{
+  color: green;
+}
+
+.done{
+  opacity: 0.5;
+}
+
+.toBeDone{
+  opacity: 1;
+}
+
+.btn-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.btn-container button{
+  margin: 0 5px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #23689b;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+.modal-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  min-height: fit-content;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.success{
+  background-color: rgb(220, 245, 191);
+  color: green;
+}
+
+.danger{
+  background-color: rgb(252, 201, 201);
+  color: rgb(110, 3, 3);
+}
